@@ -1,0 +1,22 @@
+{
+  "name": "safonov.pro",
+  "version": "2.0.0",
+  "description": "Personal site of Alexey Safonov",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/safonovpro/safonovpro.git"
+  },
+  "keywords": [
+    "safonov.pro"
+  ],
+  "author": "Alexey Safonov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/safonovpro/safonovpro/issues"
+  },
+  "homepage": "https://github.com/safonovpro/safonovpro#readme"
+}
