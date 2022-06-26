@@ -1,0 +1,8 @@
+@use 'variables' as var;
+
+#footer {
+    padding-top: var.$footer-padding-vertical;
+    padding-bottom: var.$footer-padding-vertical;
+    color: var.$footer-color;
+    background-color: var.$footer-bg;
+}
