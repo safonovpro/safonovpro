@@ -4,8 +4,61 @@
 
         <script src="/dist/index.js"></script>
         <link href="/dist/index.css" rel="stylesheet">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/icon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/icon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/icon/favicon-16x16.png">
+        <link rel="manifest" href="/assets/icon/site.webmanifest">
+        <link rel="mask-icon" href="/assets/icon/safari-pinned-tab.svg" color="#0099cc">
+        <link rel="shortcut icon" href="/assets/icon/favicon.ico">
+        <meta name="apple-mobile-web-app-title" content="safonov.pro">
+        <meta name="application-name" content="safonov.pro">
+        <meta name="msapplication-TileColor" content="#0099cc">
+        <meta name="msapplication-config" content="/assets/icon/browserconfig.xml">
+        <meta name="theme-color" content="#0099cc">
     </head>
-    <body>
-        <h1>Hello world!</h1>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <div id="flag">
+                <div class="color white"></div>
+                <div class="color blue"></div>
+                <div class="color red"></div>
+            </div>
+            <div id="content" class="container">
+                <h1 class="title display-1">Сафонов Алексей</h1>
+                <p class="lead">
+                    Гражданин 🇷🇺 РФ, муж прекрасной жены и отец двоих парней ❤️, разработчик (душой я с front-ом и JS, но сейчас в основном хожу в данные с Python 🤷‍♂️),
+                    менеджер проектов при необходимости. Более 10 лет связан с высшим образованием в нашей стране.
+                </p>
+
+                <div class="row">
+                    <div class="col-md-5">
+                        <h2>О здесь</h2>
+                        Раньше здесь был <strong>очень красивый сайт</strong> (по крайней мере на момент его создания), где я был лучше всех 😏 
+                        Как показала практика это никому не надо, а требует довольно времени и сил на поддержку хоть в каком-то приличном состоянии…
+                    </div>
+                    <div class="col-md-7">
+                        <h2>О других местах</h2>
+                        <ul>
+                            <li>Быстрее всего можно получить ответ в <a href="https://t.me/safonovpro" target="_blank">Телеграмм</a></li>
+                            <li>Можно посмотреть <a href="https://github.com/safonovpro" target="_blank">мой аккаунт на GitHub</a></li>
+                            <li>Есть электронная почта — <a href="mailto:alexey@safonov.pro">alexey@safonov.pro</a></li>
+                            <li>Ещё есть не удалённый пока что аккаунт во <a href="https://vk.com/safonovpro">ВКонтакте</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <footer id="footer" class="mt-auto">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p>© 2013 — <span id="year">2022</span> Сафонов Алексей.</p>
+                    </div>
+                    <div class="col"></div>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>

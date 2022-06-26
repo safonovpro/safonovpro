@@ -1,0 +1,12 @@
+@use 'variables' as var;
+
+#flag {
+    .color {
+        width: 100%;
+        height: 3px;
+
+        &.white { background-color: #fff; }
+        &.blue { background-color: var.$blue; }
+        &.red { background-color: #c00; }
+    }
+}

@@ -30,8 +30,16 @@ module.exports = {
                             }
                         }
                     },
-                    { loader: 'sass-loader' }
-                ]
+                    { loader: 'sass-loader' },
+                ],
+            },
+            {
+                test: /\.(svg|woff|woff2|ttf|eot)(\?.*$|$)/,
+                loader: 'file-loader',
+                options: {
+                    outputPath: 'webfonts',
+                    name: '[name].[ext]'
+                }
             }
         ]
     },
