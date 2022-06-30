@@ -35,11 +35,7 @@ module.exports = {
             },
             {
                 test: /\.(svg|woff|woff2|ttf|eot)(\?.*$|$)/,
-                loader: 'file-loader',
-                options: {
-                    outputPath: 'webfonts',
-                    name: '[name].[ext]'
-                }
+                type: 'asset/resource',
             }
         ]
     },
