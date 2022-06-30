@@ -4,7 +4,7 @@
   "description": "Personal site of Alexey Safonov",
   "main": "src/index.js",
   "scripts": {
-    "prod": "npx webpack --mode=production",
+    "build": "npx webpack --mode=production",
     "serve": "npx webpack serve --mode=development --open"
   },
   "repository": {
