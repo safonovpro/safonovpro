@@ -1,6 +1,13 @@
 #content {
-    h2 {
-        margin: 20px 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    h2, .h2, h3, .h3, h4, .h4 {font-family: 'Old Standard TT', serif;}
+    h2, .h2 {margin: 20px 0; font-size: 2.5rem;}
+    h3, .h3, h4, .h4 {margin: 15px 0;}
+
+    .avatar {
+        border-radius: 100%;   
     }
 
     .title {
@@ -9,6 +16,6 @@
     }
 
     .lead {
-        margin-bottom: 30px;
+        margin-bottom: 15px;
     }
 }
