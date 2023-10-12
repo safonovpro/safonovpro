@@ -22,4 +22,38 @@
     .badge {
         margin-bottom: 5px;
     }
+
+    #psal {
+        $color: #0e7734;
+
+        padding: 20px 45px 30px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        background-color: $color;
+
+        background-image: url('/assets/img/psal-banner-chart-bars.svg'), url('/assets/img/psal-banner-chart-liners.svg');
+        background-repeat: no-repeat, no-repeat;
+        background-position: bottom right, top left;
+        background-size: 35%, 45%;
+
+        color: #fff;
+
+        a {
+            color: #fff;
+        }
+
+        .btn-block {
+            padding-top: 10px;
+        }
+
+        .btn {
+            margin-right: 10px;
+            margin-bottom: 10px;
+
+            &.btn-outline-light:hover {
+                background-color: #fff;
+                color: $color;
+            }
+        }
+    }
 }
