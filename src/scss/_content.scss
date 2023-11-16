@@ -7,7 +7,26 @@
     h3, .h3, h4, .h4 {margin: 15px 0;}
 
     .avatar {
-        border-radius: 100%;   
+        position: relative;
+
+        img.avatar {
+            border-radius: 100%;
+        }
+
+        img.logo {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 75px;
+            height: 75px;
+            border-radius: 100%;
+            padding: 7px;
+
+            @media (max-width: 767px) {
+                width: 125px;
+                height: 125px;
+            }
+        }
     }
 
     .title {
